@@ -11,7 +11,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class LoginComponent implements OnInit {
 
-  model: ILogin = { userid: "admnin", password: "admin@123" }  
+  model: ILogin = { userid: "admin", password: "admin" }  
 
   loginForm: FormGroup;  
 message: string;  
